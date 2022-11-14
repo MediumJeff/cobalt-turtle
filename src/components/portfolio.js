@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <div>
                     <h3>Like what you see?</h3>
                     <h3>See more here - </h3>
-                    <i className='fa fa-instagram fa-5x'></i>
+                    <i className='fa fa-instagram fa-4x'></i>
                     <br/>
                     <a href="https://instagram.com/stories/cobalturtlemediacreator/2971095744246930149?utm_source-ig_story_item_share&igshid=YmMyMTA2M2Y=" style={{ fontSize: 24 }}>@cobalturtlemediacreator</a>
                     <h3 className='mt-3'>More questions?</h3>

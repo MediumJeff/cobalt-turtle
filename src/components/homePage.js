@@ -1,9 +1,11 @@
 import CTlogo from "../images/CTlogoNew.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./navbar";
 
 function HomePage() {
     return (
         <>
+        <Header />
             <body style={{ backgroundColor: "lightblue" }}>
                 <div className="row">
                     <div className="column">

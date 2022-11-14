@@ -1,10 +1,12 @@
 import React from 'react'
 import phoneImg from '../images/PhoneImg.png';
 import dogPic from '../images/DogPic.png';
+import Header from './navbar';
 
 const About = () => {
   return (
     <>
+      <Header />
       <body style={{ textAlign: "center", fontFamily: "Oxygen", backgroundColor: "lightblue" }}>
         <div>
           <h2>Who is Cobalt Turtle?</h2>

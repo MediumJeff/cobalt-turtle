@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function HomePage() {
     return (
         <>
-            <div style={{ backgroundColor: "lightblue", height: "auto" }}>
+            <body style={{ backgroundColor: "lightblue" }}>
                 <div className="row">
                     <div className="column">
                         <div style={{ textAlign: "center", marginTop: 40, fontFamily: "Oxygen" }} className='col-sm-6 offset-sm-3 col-6 offset-3'>
@@ -15,7 +15,7 @@ function HomePage() {
                 </div>
                 <div id="logo" className='row'>
                     <div className="column">
-                        <img src={CTlogo} alt="Cobalt Turtle logo" className='col-sm-6 offset-sm-3 col-6 offset-3 mt-4'></img>
+                        <img src={CTlogo} alt="Cobalt Turtle logo" className="col-sm-4 offset-sm-4 col-8 offset-2 mt-4"></img>
                     </div>
                 </div>
                 <div style={{ textAlign: "center", fontFamily: "Oxygen", fontSize: 24, marginTop: 10 }}>
@@ -25,7 +25,7 @@ function HomePage() {
                         <li><a href='/contact' id="links">Contact/Pricing</a></li>
                     </ul>
                 </div>
-            </div>
+            </body>
         </>
     )
 }

@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <Navbar dark color='primary' sticky='top' expand='md' style={{ fontFamily: "Oxygen" }}>
-            <NavbarBrand className='ms-5 col-4' href='/' >
+            <NavbarBrand className='col-3' href='/' >
                 <img src={TurtleLogo} alt='Turtle logo' className='float-start p-2' height='80'></img>
                 <h1 className='mt-3'>Cobalt Turtle</h1>
             </NavbarBrand>

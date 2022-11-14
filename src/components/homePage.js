@@ -21,7 +21,7 @@ function HomePage() {
                     </div>
                 </div>
                 <div style={{ textAlign: "center", fontFamily: "Oxygen", fontSize: 24, marginTop: 10 }}>
-                    <ul style={{ listStyleType: "none", lineHeight: 3 }} className='col-sm-6 offset-sm-3 col-6 offset-3 mt-4'>
+                    <ul style={{ listStyleType: "none", lineHeight: 3 }}>
                         <li><a href='/about' id="links">About</a></li>
                         <li><a href='/portfolio' id="links">Portfolio</a></li>
                         <li><a href='/contact' id="links">Contact/Pricing</a></li>

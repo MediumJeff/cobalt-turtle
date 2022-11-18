@@ -5,8 +5,8 @@ import Header from "./navbar";
 function HomePage() {
     return (
         <>
-        <Header />
-            <body style={{ backgroundColor: "lightblue" }}>
+            <Header />
+            <body style={{ backgroundColor: "lightblue", fontFamily: "Oxygen" }}>
                 <div className="row">
                     <div className="column">
                         <div style={{ textAlign: "center", marginTop: 40, fontFamily: "Oxygen" }} className='col-sm-6 offset-sm-3 col-6 offset-3'>
@@ -20,13 +20,14 @@ function HomePage() {
                         <img src={CTlogo} alt="Cobalt Turtle logo" className="col-sm-4 offset-sm-4 col-8 offset-2 mt-4"></img>
                     </div>
                 </div>
-                <div style={{ textAlign: "center", fontFamily: "Oxygen", fontSize: 24, marginTop: 10 }}>
+                <div style={{ textAlign: "center", fontSize: 24, marginTop: 10 }}>
                     <ul style={{ listStyleType: "none", lineHeight: 3 }}>
                         <li><a href='/about' id="links">About</a></li>
                         <li><a href='/portfolio' id="links">Portfolio</a></li>
                         <li><a href='/contact' id="links">Contact/Pricing</a></li>
                     </ul>
                 </div>
+                <br /><br />
             </body>
         </>
     )

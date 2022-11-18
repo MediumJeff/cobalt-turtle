@@ -17,7 +17,7 @@ const Portfolio = () => {
             <Header />
             <body style={{ background: 'lightblue', fontFamily: 'Oxygen', textAlign: 'center' }}>
                 <div>
-                    <h2 className='p-5'>Examples Portfolio</h2>
+                    <h1 className='p-5'>Examples Portfolio</h1>
                 </div>
                 <div className='container'>
                     <div className='row'>

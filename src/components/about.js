@@ -9,7 +9,7 @@ const About = () => {
       <Header />
       <body style={{ textAlign: "center", fontFamily: "Oxygen", backgroundColor: "lightblue" }}>
         <div>
-          <h2>Who is Cobalt Turtle?</h2>
+          <h1>Who is Cobalt Turtle?</h1>
         </div>
         <div id='image'>
           <img style={{ height: 500 }} src={phoneImg} alt="Josey at U of Oregon" className='mt-5'></img>
@@ -25,7 +25,7 @@ const About = () => {
           <div className='row'>
             <div className='column' id='dog'>
               <img src={dogPic} height={250} className='mt-5' alt='Bruce the Dog'></img>
-              <p className='col-sm-8 offset-sm-2' style={{ color: 'blue', fontSize: 18 }}>When I moved to Las Vegas, I decided to switch things up a bit. What better way to do this than rescuing a doggo! This is Bruce! I rescued Bruce in October of 2021; rescuing him exactly 12 hours before the time of his euthanizing appointment. I am his fourth (and last) owner & best friend. Or shall I say, he's MY best friend. As times get tough, I love swooping in for the save!</p>
+              <p className='col-sm-8 offset-sm-2 mt-2' style={{ color: 'blue', fontSize: 18 }}>When I moved to Las Vegas, I decided to switch things up a bit. What better way to do this than rescuing a doggo! This is Bruce! I rescued Bruce in October of 2021; rescuing him exactly 12 hours before the time of his euthanizing appointment. I am his fourth (and last) owner & best friend. Or shall I say, he's MY best friend. As times get tough, I love swooping in for the save!</p>
             </div>
           </div>
         </div>

@@ -44,7 +44,7 @@ const Portfolio = () => {
                     <h3>See more here - </h3>
                     <i className='fa fa-instagram fa-4x'></i>
                     <br/>
-                    <a href="https://instagram.com/stories/cobalturtlemediacreator/2971095744246930149?utm_source-ig_story_item_share&igshid=YmMyMTA2M2Y=" style={{ fontSize: 24 }}>@cobalturtlemediacreator</a>
+                    <a href="https://instagram.com/stories/cobalturtlemediacreator/2971095744246930149?utm_source-ig_story_item_share&igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer" style={{ fontSize: 24 }}>@cobalturtlemediacreator</a>
                     <h3 className='mt-3'>More questions?</h3>
                     <Button color='primary' size='lg' className='mb-3' onClick={sendMail}>Let's Connect!</Button>
                 </div>

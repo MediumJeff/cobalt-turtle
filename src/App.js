@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
+import './index.css'
 
 function App() {
   return (

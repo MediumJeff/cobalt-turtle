@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Navbar, NavbarBrand, Collapse, NavbarToggler, Nav, NavItem } from 'reactstrap';
-import TurtleLogo from '../images/turtle-pngrepo-com.png';
+import TurtleLogo from '../images/turtle-pngrepo-com.webp';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);

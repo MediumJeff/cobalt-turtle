@@ -3,7 +3,6 @@
   text-align: center;
   background-color: lightblue;
   font-family: 'Oxygen', sans-serif;
-
 }
 
 .App p {
@@ -39,4 +38,10 @@
 
 #turtle2 {
   rotate: -90deg;
+}
+
+.contact {
+  text-align: center;
+  background-color: lightblue;
+  font-family: 'Oxygen', sans-serif;
 }

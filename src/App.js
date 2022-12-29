@@ -2,7 +2,6 @@ import './App.css';
 import HomePage from './components/homePage';
 import About from './components/about';
 import { Route, Routes } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Header from './components/navbar';

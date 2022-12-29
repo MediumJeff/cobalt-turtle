@@ -13,7 +13,7 @@ const sendMail = () => {
 const Portfolio = () => {
     return (
         <>
-            <body className='App'>
+            <div className='App'>
                 <div>
                     <h1 className='p-5'>Examples Portfolio</h1>
                 </div>
@@ -38,7 +38,7 @@ const Portfolio = () => {
                     <h3 className='mt-3'>More questions?</h3>
                     <Button color='primary' size='lg' className='mb-3' onClick={sendMail}>Let's Connect!</Button>
                 </div>
-            </body>
+            </div>
         </>
     )
 }

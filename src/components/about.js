@@ -5,7 +5,7 @@ import dogPic from '../images/DogPic.webp';
 const About = () => {
   return (
     <>
-      <body className='App'>
+      <div className='App'>
         <div>
           <h1>Who is Cobalt Turtle?</h1>
         </div>
@@ -19,7 +19,7 @@ const About = () => {
           <img src={dogPic} height='250px' className='mt-5' alt='Bruce the Dog'></img>
           <p className='col-sm-8 offset-sm-2 mt-2'>When I moved to Las Vegas, I decided to switch things up a bit. What better way to do this than rescuing a doggo! This is Bruce! I rescued Bruce in October of 2021; rescuing him exactly 12 hours before the time of his euthanizing appointment. I am his fourth (and last) owner & best friend. Or shall I say, he's MY best friend. As times get tough, I love swooping in for the save!</p>
         </div>
-      </body>
+      </div>
     </>
   )
 }

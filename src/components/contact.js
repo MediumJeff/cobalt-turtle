@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <body className='App'>
-        <div className='row p-2'>
+        <div className='p-2'>
           <h1>Pricing</h1>
           <Card className='col-sm-4 col-8 offset-2'>
             <CardHeader>

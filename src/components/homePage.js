@@ -13,9 +13,9 @@ function HomePage() {
                 </div>
                 <div className="menu">
                     <ul>
-                        <li><a href='/about' id="links">About</a></li>
-                        <li><a href='/portfolio' id="links">Portfolio</a></li>
-                        <li><a href='/contact' id="links">Contact/Pricing</a></li>
+                        <li><a href='about' id="links">About</a></li>
+                        <li><a href='portfolio' id="links">Portfolio</a></li>
+                        <li><a href='contact' id="links">Contact/Pricing</a></li>
                     </ul>
                 </div>
                 <br /><br />

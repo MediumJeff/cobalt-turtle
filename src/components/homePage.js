@@ -1,4 +1,5 @@
 import CTlogo from "../images/CTlogoNew.webp";
+import { NavLink } from 'react-router-dom';
 
 function HomePage() {
     return (
@@ -13,9 +14,9 @@ function HomePage() {
                 </div>
                 <div className="menu">
                     <ul>
-                        <li><a href='about' id="links">About</a></li>
-                        <li><a href='portfolio' id="links">Portfolio</a></li>
-                        <li><a href='contact' id="links">Contact/Pricing</a></li>
+                        <NavLink className='nav-link' to='/about'>About</NavLink>                        
+                        <NavLink className='nav-link' to='/portfolio'>Portfolio</NavLink>                        
+                        <NavLink className='nav-link' to='/contact'>Contact/Pricing</NavLink>
                     </ul>
                 </div>
                 <br /><br />
